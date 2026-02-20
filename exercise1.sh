@@ -1,1 +1,1 @@
-echo $USER
+echo "$0"
