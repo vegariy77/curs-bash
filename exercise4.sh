@@ -1,3 +1,2 @@
-read -p "Введите день недели:" date
-read -p "Какое сегодня число:" number
-echo "$number $date "
+triangle=$(( $1 * $2 ))/2
+echo "scale=1; $triangle" | bc -l
